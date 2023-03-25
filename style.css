@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100px;
+    background-color: aqua;
+}
+
+nav{
+    background-color: black;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+menu{
+    background-color: aquamarine;
+    height: 40px;
+    line-height: 40px;
+}
+
+menu ul{
+    display: flex;
+    list-style: none;
+}
+menu ul li{
+    margin: auto;
+}
+menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+menu ul li a:hover{
+    color: blue;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: auto;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav ul li{
+    color: white;
+}
+
+/*address form*/
+
+.address-form{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    top:0;
+    left: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+.diachi:hover .address-form{
+    display: inline;
+    padding: 200px 300px;
+}
+.address-from-content{
+    width: 400px;
+    height: 450px;
+    background-color:white ;
+    border-radius: 5px;
+}
+.address-form-content form{
+    padding: 0px 40px;
+}
+.address-form-content h4{
+    font-size: 14px;
+    padding:12px 0px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+/*
+.address-from-content h4 span{
+    display: block;
+    position: absolute;
+    height: 30px;
+    padding: 0px 6px;
+    right: 12px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 30px;
+    color: #333;
+    border-radius: 5px;
+}
+*/
+.address-form-content form p{
+    font-size: 16px;
+
+}
+.select{
+    height: 45px;
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+    margin-left:10px;
+    border: 1px solid 1px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.nha{
+    margin-left: 10px;
+    height: 45px;
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+    border: 1px solid 1px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.xacnhan{
+    margin-top: 20px;
+    height: 40px;
+    width: 80%;
+    background-color: #f97e0e;
+    cursor: pointer;
+    outline:  none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
