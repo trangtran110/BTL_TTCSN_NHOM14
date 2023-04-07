@@ -588,3 +588,36 @@ footer a:hover{
 .icon3{
     margin-right: 5px;
 }
+
+
+
+/*------them----*/
+
+.slider-content-left-top-btn{
+    position: absolute;
+    top: 60%;
+    justify-content: space-between;
+    width: 65%;
+    display: flex;
+    padding-left:5px;
+}
+
+.slider-content-left-top-btn i{
+    color: #333; 
+    font-size: 32px;
+    height: 50px;
+    width: 30px;
+    background-color: #ddd;
+    justify-content: center;
+    align-items: center;
+    transform:translateY(-50%) ;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.slider-content-left-top:hover .slider-content-left-top-btn i{
+    opacity: 1;
+}
