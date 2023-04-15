@@ -10,6 +10,8 @@
     <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="fontawesome/css/brands.css" rel="stylesheet">
     <link href="fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
 </head>
 <body>
     <div class="header">
@@ -64,7 +66,7 @@
             <li><a href=""><span><i class="fa-sharp fa-solid fa-laptop fa-lg"></i></span>  Laptop</a></li>
             <li><a href=""><span><i class="fa-solid fa-tablet-screen-button fa-lg"></i></span>  Tablet</a></li>
             <li><a href=""><span><i class="fa-solid fa-headphones-simple fa-lg"></i></span>  Phụ kiện</a></li>
-            <li><a href=""><span><i class="fa-sharp fa-regular fa-clock fa-lg"></i></span>  Đồng hồ thông minh</a></li>
+            <li><a href=""><span><i class="fa-sharp fa-regular fa-clock fa-lg"></i></span>  Đồng hồ</a></li>
             <li><a href=""><span><i class="fa-sharp fa-solid fa-computer fa-lg"></i></span>  Desktop  </a><span><i class="fa-solid fa-caret-down"></i></span></li>
             <li><a href="">Máy cũ giá rẻ</a></li>
             <li><a href="">Sim, Thẻ cào</a></li>
@@ -76,29 +78,27 @@
         <div class="container">
             <div class="slider-content">
                 <div class="slider-content-left">
-                    <div class="slider-content-left-top">
-                        <a href=""><img src="images/slider1.png" alt=""></a>
-                        <a href=""><img src="images/slider2.png" alt=""></a>
-                        <a href=""><img src="images/slider3.png" alt=""></a>
-                        <a href=""><img src="images/slider4.png" alt=""></a>
-                        <a href=""><img src="images/slider5.png" alt=""></a>
-
-                        <!-- ------them------ -->
-                        <div class="slider-content-left-top-btn">
-                            <i class="fa-solid fa-angles-left"></i>
-                            <i class="fa-solid fa-angles-right"></i>
+                    <div class="slider-content-left-top owl-carousel owl-theme" style="transition: all 0.1s ease-in 0s;">
+                        <div class="product1 item">
+                            <a href=""><img src="images/slider1.png" alt=""></a>
                         </div>
-
-
-
+                        <div class="product1 item">
+                            <a href=""><img src="images/slider2.png" alt=""></a>
+                        </div>
+                        <div class="product1 item">
+                            <a href=""><img src="images/slider3.png" alt=""></a>
+                        </div>
+                        <div class="product1 item">
+                            <a href=""><img src="images/slider4.png" alt=""></a>
+                        </div>
                     </div>
-                    <div class="slider-content-left-bottom">
+                    <!-- <div class="slider-content-left-bottom">
                         <li class="tieude">Tiêu đề 1</li>
                         <li>Tiêu đề 2 <span></li>
                         <li>Tiêu đề 3</li>
                         <li>Tiêu đề 4</li>
                         <li>Tiêu đề 5</li>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="slider-content-right">
                     <li><a href=""><img src="images/anh1.png" alt=""></a></li>
@@ -232,5 +232,27 @@
     </div>
   </footer>
   <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script>
+            $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+    </script>
 </body>
 </html>
