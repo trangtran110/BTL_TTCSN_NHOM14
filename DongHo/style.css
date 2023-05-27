@@ -3,6 +3,55 @@
     margin:0px; 
     box-sizing: border-box;
 }
+.header{
+    height: 120px;
+    background-color: aqua;
+}
+
+nav{
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+menu{
+    background-color: aquamarine;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+menu ul{
+    display: flex;
+    list-style: none;
+}
+menu ul li{
+    margin: auto;
+}
+
+menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+menu ul li a:hover{
+    color: blue;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: auto;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav ul li{
+    color: white;
+}
 .banner{
     width:1240px; 
     margin: auto;
