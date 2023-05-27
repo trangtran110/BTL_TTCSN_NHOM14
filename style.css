@@ -1,0 +1,210 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .timkiem{
+        display: flex;
+        justify-content: space-around;
+        line-height: 30px;
+        background-color: white;
+    }
+    .timkiem li{
+        list-style-type: none;
+        border-top: 30px;
+    }
+    ul{
+        list-style-type: none;
+        justify-content: space-around;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    .dau ul{
+        list-style-type: none;
+        display:flex;
+        background-color: rgb(163, 128, 209);
+        line-height: 60px;
+    }
+    .dau ul li{
+        width:240px;
+        height:60px;
+        border-right: 1px solid white;
+    }
+    .dau ul li:hover{
+        background-color: rgb(227, 77, 207);
+    }
+    .dau ul a{
+        text-decoration: none;
+        color: white;
+    }
+    .menudoc ul{
+        list-style-type: none;
+        text-align: center;
+        display: flex;
+        background-color: rgb(228, 135, 135);
+        line-height: 60px;
+        justify-content: space-around;
+    }
+    .menudoc ul li{
+        border-bottom: 1px solid white;
+        width: 300px;
+    }
+    .menudoc ul li:hover{
+        background-color: rgb(252, 144, 149);
+    }
+    .menudoc ul a{
+        text-decoration: none;
+        color: white;
+    }
+    .anh{
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+    }
+    .nd{
+        display: flex;
+    }
+    .content{
+        display: flex;
+        justify-content:space-around;
+        width: 100%;
+    }
+    .cha{
+        position: relative;
+    }
+    .menudoc .con{
+        top:60px;
+        position: absolute;
+        background-color: rgb(177, 19, 19);
+        display: none;
+        justify-content: center;
+    }
+    .menudoc .con a{
+        color: rgb(44, 236, 236);
+    }
+    .menudoc .cha:hover .con{
+        display: flex;
+        flex-direction: column;
+    }
+    .first{
+        display: flex;
+        justify-content: space-around;
+    }
+    .first li{
+        padding-right: 40px;
+        margin-top: 13px;
+    }
+    .first li a{
+        color: rgb(214, 15, 15);
+    }
+    .ttlap{
+        padding-left: 300px;
+        padding-bottom: 50px;
+        
+    }
+    .content{
+        justify-content: space-around;
+    }
+    .phai{
+        margin-left:40px;
+    }
+    #detail{
+        width: 800px;
+        height: 300px;
+
+    }
+    .banner{
+        color: white;
+        background-image: url(bl.jpg);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center; 
+        height: 60px; 
+        padding-top: 10px; 
+        font-size: 45px;
+        
+    }
+    footer{
+        font-family: 'Times New Roman', Times, serif;
+        float: left;
+        width: 100%;
+        background-color: black;
+        min-height: 150px;
+    }
+    .row{
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .boxcenter2{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    .boxfooter1{
+      
+        width: 20%;
+        float: left;
+        margin-right: 2%;
+    }
+    .boxfooter2{
+        width: 22%;
+        float: left;
+        margin-right: 2%;
+    }
+    .boxfooter3{
+        width: 48%;
+        float: left;
+        margin-left: 5%;
+    }
+    .textcenter{
+        text-align: center;
+    }
+    .colorc{
+        color: white;
+    }
+    .mrb10{
+        margin-bottom: 10px;
+    }
+    .add1{
+        color: rgb(248, 72, 81);
+    }
+    .add2{
+        color: rgb(252, 119, 119)
+    }
+    .add{
+        color: rgb(250, 182, 161);
+    }
+    .sdt{
+        color: rgb(247, 206, 187);
+    }
+    footer a{
+        text-decoration: none;
+     
+        color: white;
+    }
+    footer a:hover{
+        color: rgb(252, 122, 122);
+        text-decoration: underline;
+    }
+    .icon{
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .icon2{
+        font-size: 14px;
+        margin-right: 3px;
+    }
+    .icon3{
+        margin-right: 5px;
+    }
+             
+    /* Hover chuột vào thumbnail */
+    .anh:hover {
+        transform: scale(1.2);
+            /* Safari & Google Chrome */
+        -webkit-transform: scale(1.2);
+        cursor: pointer; 
+    }
